@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ScrollingFollowView"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "A simple view follows scrolling."
   s.description  = <<-DESC
                    A simple view follows scrolling.
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ktanaka117/ScrollingFollowView.git", :tag => s.version.to_s }
 
   s.source_files  = "ScrollingFollowView/**/*.swift"
-  
+
 end
